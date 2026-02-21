@@ -1,0 +1,35 @@
+{
+  "name": "js-orc",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/KhristoSho/JS-ORC#readme",
+  "bugs": {
+    "url": "https://github.com/KhristoSho/JS-ORC/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhristoSho/JS-ORC.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@eslint/js": "^10.0.1",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.2.0",
+    "eslint": "^10.0.1",
+    "globals": "^17.3.0",
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.48.0"
+  }
+}
